@@ -1,0 +1,1 @@
+Just some simple app for testing GET/POST requests
