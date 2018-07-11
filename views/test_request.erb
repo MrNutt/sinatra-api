@@ -1,0 +1,8 @@
+<% unless @params.any? %>
+    <h1>No request data for now</h1>
+<% else %>
+    <h1>We have something!</h1>
+    <% @params.each do |x| %>
+    <h2>JSON Params: <%= x %></h2>
+    <% end %>
+<% end %>
