@@ -5,8 +5,7 @@ require "rubygems"
 params = []
 
 get '/' do
-    "Hello!"
-    # erb :index
+    erb :index
 end
 
 get '/test-request' do
