@@ -18,7 +18,7 @@ post '/test-request' do
      params.inspect
 end
 
-get '/clear' do
+get '/clean' do
     params.clear
     'Log deleted'
 end
