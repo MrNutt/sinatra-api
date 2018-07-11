@@ -17,3 +17,8 @@ post '/test-request' do
      params << JSON.parse(request.body.read)
      params.inspect
 end
+
+get '/clear' do
+    params.clear
+    'Log deleted'
+end
