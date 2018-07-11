@@ -1,6 +1,5 @@
 require 'sinatra'
 require 'json'
-require 'net/http'
 require "rubygems"
 
 params = []
